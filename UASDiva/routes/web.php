@@ -7,7 +7,12 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about',[
+        "name"=>"Isnaina Ardiva Lubis",
+        "email"=>"isnainadivalbs@gmail.com",
+        "image"=>"potoku.jpg",
+    ]
+);
 });
 
 Route::get('/blog', function () {

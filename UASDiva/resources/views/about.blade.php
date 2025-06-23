@@ -10,8 +10,8 @@
 </head>
 <body>
     <h2>Halaman About</h2>
-    <h3>Isnaina Ardiva Lubis</h3>
-    <p>isnainadivalbs@gmail.com</p>
-    <img src="img/potoku.jpg" alt="Isnaina Ardiva Lubis" width="200">
+    <h3><?= $name; ?></h3>
+    <p><?= $email; ?></p>
+    <img src="img/<?= $image; ?>" alt="<?= $name; ?>" width="200">
 </body>
 </html>
