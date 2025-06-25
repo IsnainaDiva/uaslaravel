@@ -10,9 +10,9 @@
 
     <title>WPU Blog | {{  $title }}</title>
   </head>
-  <body>
+  <body> 
     
-  @include('partials.navbar');
+  @include('partials.navbar')
 
 <div class="container mt-4">   
 @yield('container')
